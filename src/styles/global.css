@@ -1,0 +1,60 @@
+a {
+  text-decoration: none;
+  color: #181818;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Barlow", "Open Sans", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #181818;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.highlight {
+  color: rgb(115, 234, 193);
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 42px !important;
+  color: rgb(115, 234, 193);
+  text-align: left;
+}
+
+
+
+h2 {
+  text-align: left;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px !important;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+
+}
